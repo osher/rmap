@@ -1,0 +1,30 @@
+{
+  "name": "rmap",
+  "version": "0.3.1",
+  "description": "require-mapper - a CLI tool to create a module dependency tree ",
+  "main": "lib",
+  "bin": {
+    "rmap": "rmap.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osher/rmap.git"
+  },
+  "keywords": [
+    "require",
+    "dependency-tree",
+    "dependency-map"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osher/rmap/issues"
+  },
+  "homepage": "https://github.com/osher/rmap#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "mocha-ui-exports": "^0.2.2"
+  }
+}
