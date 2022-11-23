@@ -4,7 +4,7 @@
   "description": "require-mapper - a CLI tool to create a module dependency tree ",
   "main": "lib",
   "bin": {
-    "rmap": "rmap.js"
+    "rmap": "bin/rmap.js"
   },
   "scripts": {
     "test": "mocha"
